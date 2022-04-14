@@ -40,12 +40,12 @@ const mailbody = `
     <head>
     </head>
     <body>
-      <p>Hi, ${email}</p>
-      <p>Please verify your email</br>
-      <b>Link will be valid only for 5 minutes!!</b></br>
-      Find your link below:</p>
-      <p><a href=http://demo.vinitharsora.me/v1/user/verifyUserEmail?token=${token}&email=${email} >
-        http://demo.vinitharsora.me/v1/user/verifyUserEmail?token=${token}&email=${email} </a> </p>
+      <p>Hello! ${email}</p>
+      <p>Please verify your email here:</br>
+      <b>Link is valid for 5 minutes</b></br>
+      Find the link below:</p>
+      <p><a href=http://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} >
+        http://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} </a> </p>
         </body></html>
     </body>
 </html>`;
@@ -67,7 +67,7 @@ var params = {
         Data: "Email Verification",
       },
     },
-    Source: "sender@demo.vinitharsora.me",
+    Source: "Sender@demo.chinmayashtikar.me",
   };
   console.log("email sent");
   return ses.sendEmail(params).promise()
