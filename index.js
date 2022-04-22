@@ -44,8 +44,8 @@ const mailbody = `
       <p>Please verify your email here:</br>
       <b>Link is valid for 5 minutes</b></br>
       Find the link below:</p>
-      <p><a href=http://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} >
-        http://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} </a> </p>
+      <p><a href=https://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} >
+        https://demo.chinmayashtikar.me/v1/user/verifyUserEmail?token=${token}&email=${email} </a> </p>
         </body></html>
     </body>
 </html>`;
